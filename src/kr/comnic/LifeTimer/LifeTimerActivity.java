@@ -12,6 +12,7 @@ public class LifeTimerActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //새로만든 View를 띄운다.
         setContentView(new TimeDrawView(this));
     }
 }
